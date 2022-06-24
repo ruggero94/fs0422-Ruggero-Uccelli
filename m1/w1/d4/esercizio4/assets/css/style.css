@@ -1,0 +1,63 @@
+/* IMPOSTAZIONI GENERALI */
+body{
+    background-image: url("/esercizio4/assets/img/sfondo.png");
+}
+/* HEADER */
+
+
+#header{
+
+ padding: 10px;  
+ background-image: linear-gradient(#A7ACD9, #9E8FB2);
+ margin: 10px;
+}
+
+
+header > span{
+
+    text-align: center;
+}
+
+
+header > h1{
+
+  color: white;
+}
+
+header > p{
+    color: white;
+    text-align: center;
+}
+
+/* MAIN */
+#spanviola{
+    color:darkmagenta;
+}
+#sottolineato{
+    color:blue;
+    text-decoration:underline;
+}
+button{
+    
+    background-color:rgb(15, 15, 148);
+}
+
+b{
+    color: white;
+}
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
+
+
+a{
+    color: darkmagenta;
+}
+
+

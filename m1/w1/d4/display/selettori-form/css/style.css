@@ -1,0 +1,19 @@
+input[type="text"]{
+
+border: 3px solid black;
+padding: 5px;
+border-radius: 5px;
+height: 40px;
+width: 300px
+
+
+}
+
+
+
+input :focus{
+
+outline: 5px solid green;
+
+
+}

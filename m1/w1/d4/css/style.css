@@ -1,0 +1,31 @@
+#quadrato{
+
+background-color: cornflowerblue;
+min-height: 200px;
+width: 200px;
+padding: 40px;
+border: 5px solid black;
+margin: 100px;
+}
+
+/* sfondi */
+#sfondo-immagine{
+    height: 100px;
+    background-image: url('../img/andromeda.jpg');
+    background-size: contain ;
+   background-repeat: no-repeat; 
+}
+
+button{
+    opacity: 0.5;
+}
+
+/*overflow*/
+
+
+#sezion1{
+
+height: 200px;
+overflow: scroll;
+
+}

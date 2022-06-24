@@ -1,0 +1,228 @@
+@font-face {
+    font-family: 'fa-regular-400';
+    src: url("../webfonts/fa-regular-400.ttf");
+}
+
+
+
+#divlogo{
+  height: 4.5cm;
+  background-color: black;
+  text-align: center;
+  
+  padding-bottom: 50; 
+  padding-left:  100;
+  padding-right: 100;
+ /* margin-top: 3cm;
+  margin-bottom: 3cm;
+  margin-left: 20cm;
+  margin-right: 20cm;
+*/
+
+}
+
+
+img{
+    padding-top: 1cm;
+}
+
+#divpresentazione1{
+    font-family: 'fa-regular-400';
+    text-align: center;
+    height: 18cm;
+    background-image: url(/assets/images/banner.jpg);
+    
+} 
+
+
+#titolopresentazione1{
+
+    /* dimensione e colore*/
+    padding-top: 2cm;
+    color:darkcyan;
+    font-size: 40pt;
+    font-family: fa-regular-400;
+}
+
+#titolopresentazione2{
+
+    color:darkcyan;
+    font-size: 40pt;
+    font-family: fa-regular-400;
+}
+
+#testo1{
+    font-family: fa-regular-400;
+    padding-top: 1cm;
+    font-size: 30pt;
+    padding-bottom: 1.5cm;    
+}
+
+button{
+  
+   height: 1.5cm;
+   width: 4.5cm;
+  /* padding-top: 1.5cm;*/
+   background-color: rgb(178, 80, 34);
+   border-radius: 10px;
+   color: white;
+}
+
+#divpresentazione1{
+    text-align: center;
+   /* height: 18cm;*/
+    background-color: white;
+    font-family: 'fa-regular-400';
+    
+} 
+
+#titoloA{
+    font-family: fa-regular-400;
+    padding-top: 2cm;
+    font-size: 30pt;
+    padding-bottom: 1cm;
+    color: darkcyan;
+    text-align: center;
+}
+
+
+
+#divrosso{
+
+    height: 12cm;
+    background-color: rgb(165, 61, 42);
+
+}
+
+
+#titoloB{
+    font-family: fa-regular-400;
+   padding-top: 3cm;
+   color: white;
+   font-size: 40pt;
+   text-align: center;
+}
+
+#frase{
+    font-family: fa-regular-400;
+    padding-top: 2.5cm;
+    text-align: center;
+    color: white;
+    font-size: 20pt;
+}
+
+
+#fotonotebook{
+
+    border-radius: 50%;
+ /* padding-left: 3.5cm;*/
+ /* padding-right: 3.5cm;*/
+    margin-left:10cm ;
+    margin-right:10cm ;
+}
+
+
+
+#divfooter{
+
+    background-color: darkcyan;
+    height: 12cm;
+}
+
+#sottolineato{
+    text-decoration: underline;
+    color: white;
+    font-family: fa-regular-400;
+}
+
+#descrizione{
+
+    font-size: 30pt;
+    text-align: center;
+    font-family: fa-regular-400;
+}
+
+
+#nome{
+    font-family: fa-regular-400;
+    padding-top: 1.5cm;
+    font-size: 15pt;
+    text-align: center;
+    color: white;
+}
+
+#CEO{
+    font-size: 15pt;
+    text-align: center;
+    color: white;
+    font-family: fa-regular-400;
+}
+
+.card-title{
+    font-size: 30pt;
+    text-align: center;
+    font-family: fa-regular-400;
+}
+
+.card-description{
+    font-size: 30pt;
+    text-align: center;
+    font-family: fa-regular-400;
+}
+
+#foto1{
+    margin-left: 8cm;
+    margin-right: 10cm;
+}
+
+
+#foto2{
+    margin-left: 8cm;
+    margin-right: 10cm;
+}
+
+#foto3{
+    margin-left: 8cm;
+    margin-right: 10cm;
+}
+
+
+
+#titlefooter{
+
+    font-family: fa-regular-400;
+    font-size: 40pt;  
+    color: white;
+    text-align: center;
+    padding-top: 1.5cm;
+    padding-bottom: 1.5cm;
+}
+
+#pfooter1{
+  font-family: fa-regular-400;
+  text-align: center;
+  color: white;
+  font-size: 30pt;
+}
+
+#pfooter2{
+    font-family: fa-regular-400;
+    text-align: center;
+    color: white;
+    font-size: 30pt;
+    
+}
+
+#pfooter3{
+    font-family: fa-regular-400;
+    text-align: center;
+    color: white;
+    font-size: 30pt;
+}
+
+#pfooter4{
+    font-family: fa-regular-400;
+    text-align: center;
+    color: white;
+    font-size: 30pt;
+}

@@ -1,0 +1,131 @@
+/* IMPOSTAZIONI GENERALI */
+
+/* HEADER */
+
+header>div {
+    margin-top: 0cm;
+    background-color: cornflowerblue;
+    text-align: center;
+    padding-top: 0cm;
+}
+
+#CV {
+
+    color: aliceblue;
+    text-align: center;
+}
+
+#name {
+
+    background-color: aliceblue;
+    color: cornflowerblue;
+
+    text-align: center;
+
+}
+
+header>div>h3 {
+
+    color: black;
+}
+
+/* MAIN */
+
+
+
+
+/* ELEMENTI NEL MAIN */
+
+
+section>h1 {
+    text-align: center;
+    color: cornflowerblue;
+}
+
+
+section>figure {
+    text-align: center;
+}
+
+
+#divblockquote {
+    background-color: darkgrey;
+    text-align: center;
+    width: auto;
+    height: 2cm;
+}
+
+/* blockquote{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+*/
+#presentazione{
+    text-align: center;
+    color: cornflowerblue;
+}
+
+hr{
+    border-top: 3px dashed;
+}
+
+
+#competenze{
+
+    text-align: center;
+    color: cornflowerblue;
+
+}
+
+#formazione{
+
+    text-align: center;
+    color: cornflowerblue;
+
+}
+
+
+#coloreparole{
+
+    color: cornflowerblue;
+
+}
+
+
+#votazione{
+    color: white;
+    background-color: cornflowerblue;
+}
+
+a{
+    color: red;
+
+}
+
+
+/* FOOTER */
+footer{
+
+    height: 5cm;
+    background-color: rgb(21, 21, 49);
+}
+
+footer>hr {
+
+
+
+    border: 3px solid blue;
+}
+
+footer>div {
+
+    background-color: rgb(21, 21, 49);
+
+}
+
+#testofinale{
+    color: white;
+}
+

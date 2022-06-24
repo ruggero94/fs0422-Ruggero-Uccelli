@@ -1,0 +1,25 @@
+a{
+
+   text-decoration: none;
+   color: black;
+
+}
+
+#main-header a{
+
+    text-decoration: none;
+    color: green;
+ 
+
+}
+
+div #sfondo-blu{
+
+    background-color: blue;
+}
+
+
+div #sfondo-blu-testo-grassetto{
+
+    font-weight: bold;
+}
