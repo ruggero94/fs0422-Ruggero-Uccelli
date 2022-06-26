@@ -1,12 +1,13 @@
 @font-face {
-    font-family: 'fa-regular-400';
-    src: url("../webfonts/fa-regular-400.ttf");
+    font-family: 'Montserrat';
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@300&display=swap');
 }
 
 
 
 #divlogo{
-  height: 4.5cm;
+  height: 3.5cm;
+  width: 450px;
   background-color: black;
   text-align: center;
   
@@ -22,111 +23,162 @@
 }
 
 
-img{
+#imglogo{
+    width: 167px;
     padding-top: 1cm;
 }
 
 #divpresentazione1{
-    font-family: 'fa-regular-400';
-    text-align: center;
-    height: 18cm;
-    background-image: url(/assets/images/banner.jpg);
     
+    text-align: center;
+    height: 10cm;
+    background-image: url(/assets/images/banner.jpg);
+    background-size: 120%;
+    background-position-x: -2.3cm;
+    background-repeat: no-repeat;
+    width: 450px;
 } 
 
 
 #titolopresentazione1{
 
     /* dimensione e colore*/
-    padding-top: 2cm;
+    font-family: 'Montserrat';
+    padding-top: 1cm;
     color:darkcyan;
-    font-size: 40pt;
-    font-family: fa-regular-400;
+    font-size: 28pt;
+    width: 450px;
 }
 
 #titolopresentazione2{
-
+    font-family: 'Montserrat';
     color:darkcyan;
-    font-size: 40pt;
-    font-family: fa-regular-400;
+    font-size: 28pt;
+    width: 450px;   
 }
 
 #testo1{
-    font-family: fa-regular-400;
-    padding-top: 1cm;
-    font-size: 30pt;
-    padding-bottom: 1.5cm;    
+    font-family: 'Montserrat';
+    padding-top: 0.6cm;
+    font-size: 18pt;
+    padding-bottom: 0.8cm;    
+    width: 450px;
 }
 
 button{
-  
-   height: 1.5cm;
-   width: 4.5cm;
+   
+    
+   height: 1.2cm;
+   width: 4.2cm;
   /* padding-top: 1.5cm;*/
    background-color: rgb(178, 80, 34);
    border-radius: 10px;
    color: white;
+   font-family: 'Montserrat';
+   margin-bottom: 1.5cm;
 }
 
-#divpresentazione1{
+#divpresentazione2{
     text-align: center;
-   /* height: 18cm;*/
+    height: 25cm;
     background-color: white;
-    font-family: 'fa-regular-400';
+    width: 450px;
+    
+    
     
 } 
 
 #titoloA{
-    font-family: fa-regular-400;
-    padding-top: 2cm;
-    font-size: 30pt;
-    padding-bottom: 1cm;
+    
+    /*margin-top: -2cm;*/
+    font-family: "open sans";
+    padding-top: 1.5cm;
+    font-size: 18pt;
+    padding-bottom: 0.5cm;
     color: darkcyan;
     text-align: center;
+    width: 450px;
 }
 
 
 
 #divrosso{
 
-    height: 12cm;
+    height: 10cm;
     background-color: rgb(165, 61, 42);
-
+    width: 450px;
 }
 
 
 #titoloB{
-    font-family: fa-regular-400;
-   padding-top: 3cm;
-   color: white;
-   font-size: 40pt;
+    
+   padding-top: 0.5cm;
+   padding-bottom: 0.5cm;
+   color: darkcyan;
+   font-size: 18pt;
    text-align: center;
+   width: 450px;
 }
-
+#titoloC{
+    
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm;
+    color: darkcyan;
+    font-size: 18pt;
+    text-align: center;
+    width: 450px; 
+}
+ #titoloD{
+    
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm;
+    color: darkcyan;
+    font-size: 18pt;
+    text-align: center;
+    width: 450px; 
+}
+  
+#titoloE{
+    
+    padding-top: 2cm;
+    padding-bottom: 0.5cm;
+    color: white;
+    font-size: 28pt;
+    text-align: center;
+    width: 450px; 
+}
+  
 #frase{
-    font-family: fa-regular-400;
-    padding-top: 2.5cm;
+    
+    padding-top: 0.5cm;
     text-align: center;
     color: white;
-    font-size: 20pt;
+    font-size: 18pt;
+    width: 450px;
 }
+
+
+/* #foto-notebook*/
+
 
 
 #fotonotebook{
 
-    border-radius: 50%;
- /* padding-left: 3.5cm;*/
- /* padding-right: 3.5cm;*/
-    margin-left:10cm ;
-    margin-right:10cm ;
+    border-radius: 80%;
+    margin-left:0.1cm;
+    margin-right:0.1cm;
+   
+  
+
 }
 
 
 
 #divfooter{
-
+    margin-top: 3cm;
     background-color: darkcyan;
     height: 12cm;
+    width: 450px;
 }
 
 #sottolineato{
@@ -135,94 +187,129 @@ button{
     font-family: fa-regular-400;
 }
 
-#descrizione{
+#descrizione1{
 
-    font-size: 30pt;
+    font-size: 18pt;
     text-align: center;
-    font-family: fa-regular-400;
+    
+}
+#descrizione2{
+
+    font-size: 18pt;
+    text-align: center;
+    
+}
+#descrizione3{
+
+    font-size: 18pt;
+    text-align: center;
+    
+}
+#descrizione4{
+
+    font-size: 18pt;
+    text-align: center;
+    
 }
 
-
 #nome{
-    font-family: fa-regular-400;
-    padding-top: 1.5cm;
-    font-size: 15pt;
+    
+    padding-top: 0.5cm;
+    font-size: 18pt;
     text-align: center;
     color: white;
 }
 
 #CEO{
-    font-size: 15pt;
+    font-size: 18pt;
     text-align: center;
     color: white;
-    font-family: fa-regular-400;
+    
 }
 
 .card-title{
-    font-size: 30pt;
+    padding-top: 1cm;
+    font-size: 18pt;
     text-align: center;
-    font-family: fa-regular-400;
+    color: darkcyan;
 }
 
 .card-description{
-    font-size: 30pt;
+    font-size: 18pt;
     text-align: center;
-    font-family: fa-regular-400;
+    
 }
 
 #foto1{
-    margin-left: 8cm;
-    margin-right: 10cm;
+    margin-top: 2cm;
+    margin-left: 2cm;
+    margin-right: 2cm;
 }
 
 
 #foto2{
-    margin-left: 8cm;
-    margin-right: 10cm;
+    margin-top: 2cm;
+    margin-left: 2cm;
+    margin-right: 2cm;
 }
 
 #foto3{
-    margin-left: 8cm;
-    margin-right: 10cm;
+    margin-top: 2cm;
+    margin-left: 2cm;
+    margin-right: 2cm;
 }
 
 
 
 #titlefooter{
 
-    font-family: fa-regular-400;
-    font-size: 40pt;  
+    
+    font-size: 28pt;  
     color: white;
     text-align: center;
     padding-top: 1.5cm;
-    padding-bottom: 1.5cm;
+    padding-bottom: 0.5cm;
 }
 
 #pfooter1{
-  font-family: fa-regular-400;
+ /* font-family: fa-regular-400;*/
   text-align: center;
-  color: white;
-  font-size: 30pt;
+  font-size: 18pt;
 }
 
 #pfooter2{
-    font-family: fa-regular-400;
+  /*  font-family: fa-regular-400;*/
     text-align: center;
     color: white;
-    font-size: 30pt;
+    font-size: 18pt;
     
 }
 
 #pfooter3{
-    font-family: fa-regular-400;
+  /*  font-family: fa-regular-400;*/
     text-align: center;
     color: white;
-    font-size: 30pt;
+    font-size: 18pt;
+}
+#divhr{
+
+    text-align: center;
+    width: 10;
+}
+hr{
+    border: 0.3px solid white;
+   /* text-align: center; */
+   width: 8cm;
+}
+
+a{
+    color: white;
 }
 
 #pfooter4{
-    font-family: fa-regular-400;
+   /* font-family: fa-regular-400;*/
     text-align: center;
     color: white;
-    font-size: 30pt;
+    font-size: 18pt;
 }
+
