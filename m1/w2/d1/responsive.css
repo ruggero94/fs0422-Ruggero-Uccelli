@@ -1,0 +1,43 @@
+/* breakpoint*/
+@media screen and (min-width: 480px){
+
+    .col{
+     background-color: yellow;
+    
+     width: calc(100% /2 - 8px);
+     display: inline-block;
+    }
+ 
+ }
+ 
+ @media screen and (min-width: 760px){     
+    
+
+    .container{
+
+        width: 768px;
+        margin: 0 auto;
+    }
+
+     .col{
+     background-color: green;
+     width: calc( 100% /3 - 8px)
+     }
+ }
+ 
+ 
+ @media screen and (min-width: 1440px){  
+ 
+    .container{
+
+        width: 768px;
+        margin: 0 auto;
+    }
+     .col{
+         background-color: blue;
+         width: calc( 100% /4 - 8px)
+         }
+ }
+ 
+ 
+     

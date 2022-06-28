@@ -1,0 +1,12 @@
+.col{
+    background-color: red;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.container{
+
+    width: 100%;
+    margin: 0 auto;
+}

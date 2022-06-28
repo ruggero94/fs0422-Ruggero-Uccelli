@@ -1,0 +1,16 @@
+/* inserisco il float  */
+img{
+  float: left;
+  padding-right: 15px;
+}
+
+
+.blog-article{
+
+    background-color: red;
+    width:30%;
+    height: 200px;
+    
+
+
+}
