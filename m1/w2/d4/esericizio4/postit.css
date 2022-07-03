@@ -1,0 +1,80 @@
+
+
+
+.desk{
+
+  background-image: linear-gradient(grey, black);
+  height: 100vh;
+  
+  
+}
+
+
+
+.row1{
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.row2{
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.postit{
+
+    height: 200px;
+    width: 200px;
+    /*text-align: center;*/
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+    padding-left: 40px;
+    transition-property: all; 
+    transition-duration: 2s;
+     /* animation-name: animazione;  
+    animation-duration 2s 
+    animation-iteration-count: 1;*/
+}
+
+/* @keyframes animazione {
+    from{ width: 200px, height: 200px }
+    to{  }
+}
+
+*/
+
+.postit:hover{
+
+    transform: scale(2);
+}
+
+
+#n1, #n5, #n7{
+
+background-image: linear-gradient(salmon,black );
+transform: rotate(10deg);
+}
+
+
+
+#n2, #n4, #n8{
+
+background-image: linear-gradient(green,black );
+transform: rotate(-10deg);
+}
+
+
+
+#n3, #n6{
+
+    background-image: linear-gradient(violet,black );
+    transform: rotate(20deg);
+}
+
+/*   fare tutto con le classi, fare 3 classi per i 3 colori  */

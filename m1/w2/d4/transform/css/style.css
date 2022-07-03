@@ -1,0 +1,87 @@
+/*
+.fascia{
+  background-color: green;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+#element-absolute{
+
+    position: absolute;
+    top: 50px;
+
+    left: 20px; 
+
+}    
+
+*/
+
+#transform-area{
+
+background-color: black;
+perspective: 400px;
+height: 100vh;
+
+
+}
+
+
+.quadrato{
+
+
+background-color: red;
+height: 100px;
+width: 100px;
+
+}
+
+
+#n1{
+
+transform: rotate(30deg);
+
+}
+
+#n2{
+
+  transform: rotateX(30deg);
+}
+
+
+#n3{
+
+  transform: rotateY(30deg);
+
+}
+
+
+#n4{
+
+  transform: scale(2);
+
+}
+
+
+#n5{
+
+
+  transform: skew(30deg);
+
+}
+
+#n6{
+
+transition: transform 1s;
+
+}
+
+
+#n6 :hover{
+
+transform: skew(20deg) rotate(30deg) scale(1);
+
+}
+
+

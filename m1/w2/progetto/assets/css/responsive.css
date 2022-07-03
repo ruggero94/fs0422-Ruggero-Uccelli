@@ -1,0 +1,65 @@
+/* RESPONSIVE */
+
+/*
+@media screen and (max-width:480px){
+
+}
+
+*/
+
+
+/*           versione tablet            */
+@media screen and (min-width: 768px){
+
+        /*  #section-contatti{
+            justify-content: center;
+          }
+          */
+          #input-name{
+            width: 150%;
+          }
+          #input-email{
+            width: 150%;
+          }
+          #input-text{
+            width: 150%;
+          }
+          #button-submit{
+            margin-left: 45px;
+          }
+        /* #h2-section-contatti{
+            width: 20% auto;
+            margin-top: 10px;
+            margin-right: 10px;
+            
+         }*/
+         #div-contatti-info{
+            width:50%;
+           /* align-items: right;*/
+            
+           margin-left: 280px;
+            padding-top: 2px;
+        }
+        
+        #section-contatti{
+            display: flex;
+            flex-direction: row;
+        }
+        #div-form-contatti{
+            width: 40%;
+        }
+
+
+}
+
+
+
+
+
+/*     versione dektop      */
+/*
+@media screen and (min-width: 1024px){
+
+
+}
+*/

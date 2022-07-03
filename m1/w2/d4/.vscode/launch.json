@@ -1,0 +1,14 @@
+{
+    // Usare IntelliSense per informazioni sui possibili attributi.
+    // Al passaggio del mouse vengono visualizzate le descrizioni degli attributi esistenti.
+    // Per altre informazioni, visitare: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Open postit.html",
+            "file": "c:\\Users\\utente\\Desktop\\fs0422\\m1\\w2\\d4\\esericizio4\\postit.html"
+        }
+    ]
+}
